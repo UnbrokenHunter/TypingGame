@@ -13,7 +13,8 @@ public class TypingController : MonoBehaviour
 	[SerializeField] private TMP_Text _textMesh;
 	[SerializeField] private Color _color;
 	
-	[SerializeField] private Audio
+	[SerializeField] private AudioPlayer _audioPlayer;
+	[SerializeField] private AudioClip _clickSound;
 	
 	[SerializeField] private UnityEvent OnTextCompleted;
 
@@ -61,6 +62,9 @@ public class TypingController : MonoBehaviour
 		if (string.IsNullOrEmpty(keyboardInput)) 
 			return;
 
+		// Play Click Sound
+		_audioPlayer.PlayClip(_clickSound);
+		
 		// Set input variable to the non empty variable
 		_input = keyboardInput;
 

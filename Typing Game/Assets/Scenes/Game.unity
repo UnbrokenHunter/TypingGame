@@ -1452,6 +1452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1071240393}
   - component: {fileID: 1071240392}
+  - component: {fileID: 1071240394}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1477,6 +1478,8 @@ MonoBehaviour:
   - Teextttt teeeeessssttttt cAn y O U tY pe tHiS
   _textMesh: {fileID: 156633278}
   _color: {r: 0.37717748, g: 1, b: 0.29622638, a: 1}
+  _audioPlayer: {fileID: 1071240394}
+  _clickSound: {fileID: 8300000, guid: 4f7289c0542d3a94790913aa37ab8fdf, type: 3}
   OnTextCompleted:
     m_PersistentCalls:
       m_Calls:
@@ -1508,6 +1511,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1071240394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071240391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5779378d55e03547868c0e246bf0f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clip: {fileID: 0}
+  _volume: 0.45
+  _finishClipOnLoadScene: 0
 --- !u!1 &1267770617
 GameObject:
   m_ObjectHideFlags: 0
