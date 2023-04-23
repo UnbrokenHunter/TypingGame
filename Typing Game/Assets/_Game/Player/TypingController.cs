@@ -12,7 +12,9 @@ public class TypingController : MonoBehaviour
 
 	[SerializeField] private TMP_Text _textMesh;
 	[SerializeField] private Color _color;
-
+	
+	[SerializeField] private Audio
+	
 	[SerializeField] private UnityEvent OnTextCompleted;
 
 	private float _timeElapsed = 0;
