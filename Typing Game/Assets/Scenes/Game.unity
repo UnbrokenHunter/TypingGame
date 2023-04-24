@@ -1473,9 +1473,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _texts:
-  - This is text
-  - Text 2 electric boogaloo
-  - Teextttt teeeeessssttttt cAn y O U tY pe tHiS
+  - Try Typing the letters you see on screen
+  - The faster you type the higher your score
+  - Your Words Per Minute is your score
+  - Good luck and have fun
+  - What is your high score
+  - How fast can you type this paragraph even though it it meaningless it can still
+    be used to test your speed so lets see how fast you can go
   _textMesh: {fileID: 156633278}
   _color: {r: 0.37717748, g: 1, b: 0.29622638, a: 1}
   _audioPlayer: {fileID: 1071240394}
@@ -1930,7 +1934,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!1 &1971160763
 GameObject:
